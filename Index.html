@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <button class="button" onclick="addition()">Addition</button>
+
+<script> 
+function addition(){
+var a = Number(prompt("Enter first number", ""));
+var b = Number(prompt("Enter second number", ""));
+alert(""+a+" + "+b+" = "+(a + b)+"");
+     };
+                
+</script>
+
+    <button class="button button2" onclick="subtraction()">Subtraction</button>
+    
+    <script> 
+    function subtraction(){
+    var a = Number(prompt("Enter first number", ""));
+    var b = Number(prompt("Enter second number", ""));
+    alert(""+a+" - "+b+" = "+(a - b)+"");
+          };
+                    
+    </script>
+    <button class="button button3" onclick="Multiplication()"> Multiply</button>
+
+    <script>
+        function Multiplication(){
+            var numA = Number(prompt("First Number", ""));
+            var numB = Number(prompt("Second Number", ""));
+
+            alert("" +numA+ " * " +numB+ " = " +(numA * numB)+ "");
+        }
+    </script>
+
+<button class="button button4" onclick="Division()"> Divide</button>
+
+<script>
+    function Division(){
+        var numA = Number(prompt("First Number", ""));
+        var numB = Number(prompt("Second Number", ""));
+
+        alert("" +numA+ " / " +numB+ " = " +(numA / numB)+ "");
+    
+      
+}
+
+   
+</script>
+    
+</body>
+</html>

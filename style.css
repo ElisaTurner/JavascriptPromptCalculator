@@ -1,0 +1,43 @@
+    body {
+      background-color: aquamarine;
+    }
+
+    .button {
+      background-color: red;
+      border: none;
+      color: yellow;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .button2 {
+      background-color: #FFDB58;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .button3 {
+      background-color: #0028db;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .button4 {
+      background-color: #4f9400;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
